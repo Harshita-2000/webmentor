@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Basic Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="regform"><h1>Registration Form</h1></div>
+    <div class="mane">
+        <form action="/action_page.php" target="_blank">
+            <div id="name">
+                <h2 class="name">Name</h2>
+  <label class="fname">First name:</label><br>
+  <input class="firstname" type="text" id="fname" name="fname" placeholder="Aman"><br>
+  <label class="lname">Last name:</label><br>
+  <input class="lastname" type="text" id="lname" name="lname" placeholder="Gahlot"><br>
+            </div>
+        
+<h2 class="name">Gender</h2>
+    <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br>
+            
+<h2 class="name">College</h2>
+    <input class="college" type="text" name="college"><br>
+<h2 class="name">Email</h2>
+    <input class="email" type="email" name="email"><br>
+<h2 class="name">Contact Details</h2>
+    <input class="code" type="text" name="areacode">
+    <label class="areacode">Area Code</label>
+    <input class="contactno" type="text" name="email">
+    <label class="number">Contact Number</label>
+            
+<h2 class="name">Course</h2> 
+    <select class="option" name="course">
+        <option disabled="disabled" selected="selected">Choose option</option>
+        <option>Bachelor of Technology(B.Tech)</option> 
+        <option>Bachelor of Computer Science(B.Sc.)</option>
+            </select>
+<h2 class="name">Password</h2>
+    <input class="password" type="text" name="password"><br>
+            <br><button class="submit" value="Submit">Register</button>
+    
+    
+    
+    
+    </form>
+    </div>
+</body>
+</html>
